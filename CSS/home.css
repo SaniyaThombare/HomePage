@@ -100,6 +100,55 @@ header {
   gap: 10px;
 }
 
+.dropdown {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px
+  }
+
+.svg{
+  filter: invert(1);
+  
+}
+
+.dropdown-btn {
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  /* Dropdown content (hidden by default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #929292d3;
+    min-width: 150px;
+    box-shadow: 0px 4px 8px rgba(74, 74, 74, 0.2);
+    z-index: 1;
+  }
+
+  /* Dropdown items */
+  .dropdown-content a {
+    color: #000000;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: black;
+    text-decoration: none;
+  }
+
+  /* Show dropdown on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
 .section {
   width: 100vw;
   height: 70vh;
