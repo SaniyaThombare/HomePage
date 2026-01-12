@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Medicine</title>
+</head>
+<body>
+    <section class="search-filter">
+    <h2>Fill in the following details to search a blood donar</h2>
+    <div class="form">
+      <select id="bloodGroup">
+        <option value="">Blood Group</option>
+        <option>A+</option>
+        <option>B+</option>
+        <option>O+</option>
+        <option>AB+</option>
+      </select>
+
+      <input type="text" id="medicineName" placeholder="Medicine Name">
+
+      <input type="text" id="location" placeholder="Location">
+
+      <select id="availability">
+        <option value="">Availability</option>
+        <option value="available">Available</option>
+        <option value="not">Not Available</option>
+      </select>
+    </div>
+
+
+    <button onclick="searchDonors()">Search</button>
+  </section>
+</body>
+</html>

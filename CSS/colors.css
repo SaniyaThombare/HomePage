@@ -1,0 +1,37 @@
+:root {
+  /* Brand Colors */
+  --color-primary: #1F4FD8;        /* Medical Blue */
+  --color-primary-light: #dae4fd;
+  --color-primary-dark: #163A9E;
+
+  --color-secondary: #2BB0A6;      /* Teal Green */
+  --color-secondary-light: #E6F7F5;
+  --color-secondary-dark: #1E7F78;
+
+  /* Backgrounds */
+  --color-bg-main: #FFFFFF;
+  --color-bg-section: #F7F9FC;
+  --color-bg-card: #FAFAFA;
+
+  /* Text */
+  --color-text-primary: #1F2933;   /* Dark Charcoal */
+  --color-text-secondary: #5F6C7B;
+  --color-text-muted: #9AA5B1;
+  --color-text-inverse: #FFFFFF;
+
+  /* Borders & Dividers */
+  --color-border-light: #e1e5eaff;
+  --color-border-medium: #CBD2D9;
+
+  /* Status / Feedback */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-info: #3B82F6;
+
+  /* Interactive Elements */
+  --color-link: var(--color-primary);
+  --color-link-hover: var(--color-primary-dark);
+  --color-button-primary: var(--color-primary);
+  --color-button-secondary: var(--color-secondary);
+}

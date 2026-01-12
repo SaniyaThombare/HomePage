@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Search Blood</title>
+  <link rel="stylesheet" href="../CSS/blood_search.css">
+  <script src="../Javascript/search.js"></script>
+</head>
+
+<body>
+  <section class="search-filter">
+    <h2>Fill in the following details to search a blood donar</h2>
+    <div class="form">
+      <select id="bloodGroup">
+        <option value="">Blood Group</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>O+</option>
+        <option>O-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+      </select>
+      <select id="State">
+        <option value="">State</option>
+        <option>Assam</option>
+        <option>Bangalore</option>
+        <option>Delhi</option>
+        <option>Maharashtra</option>
+        <option>Gujarat</option>
+        <option>Rajasthan</option>
+        <option>Sikkim</option>
+        <option>J&K</option>
+      </select>
+      <select id="City">
+        <option value="">City</option>
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>O+</option>
+        <option>O-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+      </select>
+
+      <select id="area">
+        <option value="">Area</option>
+        <option>A+</option>
+        <option>B+</option>
+        <option>O+</option>
+        <option>AB+</option>
+      </select>
+
+      <select id="availability">
+        <option value="">Availability</option>
+        <option value="available">Available</option>
+        <option value="not">Not Available</option>
+      </select>
+    </div>
+
+
+    <button onclick="searchDonors()">Search</button>
+  </section>
+
+  <!-- <section class="results" id="results">
+    <div class="donor-card">
+      <h3>Donor Name: Rahul Patil</h3>
+      <p><strong>Blood Group:</strong> O+</p>
+      <p><strong>Medicine:</strong> Paracetamol</p>
+      <p><strong>Distance:</strong> 2.5 km</p>
+      <p class="available">Available</p>
+      <button>Contact</button>
+    </div>
+  </section> -->
+
+</body>
+
+</html>
